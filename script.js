@@ -1,28 +1,12 @@
 var _0x47c0f3 = _0x554a; (function (_0x5b1f03, _0x497281) { var _0xbfc2ab = _0x554a, _0x140f1d = _0x5b1f03(); while (!![]) { try { var _0x44ada2 = -parseInt(_0xbfc2ab(0x146)) / 0x1 * (-parseInt(_0xbfc2ab(0x148)) / 0x2) + -parseInt(_0xbfc2ab(0x14a)) / 0x3 + -parseInt(_0xbfc2ab(0x14c)) / 0x4 + -parseInt(_0xbfc2ab(0x14d)) / 0x5 * (parseInt(_0xbfc2ab(0x14f)) / 0x6) + parseInt(_0xbfc2ab(0x14b)) / 0x7 + parseInt(_0xbfc2ab(0x14e)) / 0x8 * (-parseInt(_0xbfc2ab(0x150)) / 0x9) + parseInt(_0xbfc2ab(0x147)) / 0xa; if (_0x44ada2 === _0x497281) break; else _0x140f1d['push'](_0x140f1d['shift']()); } catch (_0x337b49) { _0x140f1d['push'](_0x140f1d['shift']()); } } }(_0x56cc, 0x1d013)); var key = _0x47c0f3(0x149); function _0x554a(_0x558217, _0x4e4d69) { var _0x56cc41 = _0x56cc(); return _0x554a = function (_0x554abd, _0x54141c) { _0x554abd = _0x554abd - 0x146; var _0x171570 = _0x56cc41[_0x554abd]; return _0x171570; }, _0x554a(_0x558217, _0x4e4d69); } function _0x56cc() { var _0x13c31a = ['209720ikMDGo', '458080HyrGiU', '85mTvtYd', '93008OetVvD', '26958llXlMu', '135ZInDKz', '19wkabdJ', '5184710vAjLaY', '2298SRYFzx', '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', '258504bhhFqi']; _0x56cc = function () { return _0x13c31a; }; return _0x56cc(); }
-// var xhr = new XMLHttpRequest();
-// xhr.open("GET", "key.txt", true);
-// xhr.onreadystatechange = function () {
-//     if (xhr.readyState === 4 && xhr.status === 200) {
-//         key = xhr.responseText;
-//     }
-// };
-// xhr.send();
-
-
-// var key = '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';
-// var xhr = new XMLHttpRequest();
-// xhr.open("GET", "key.txt", true);
-// xhr.onreadystatechange = function () {
-//   if (xhr.readyState === 4 && xhr.status === 200) {
-//     console.log("hello")
-//     key = xhr.responseText;
-//   }
-// };
-// xhr.send();
-
-// sss
-
-
+var xhr = new XMLHttpRequest();
+xhr.open("GET", "key.txt", true);
+xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+        key = xhr.responseText;
+    }
+};
+xhr.send();
 
 
 
@@ -143,7 +127,7 @@ document.getElementById('reply').addEventListener("click", async (e) => {
             essential tools needed to set up a small scale aquaculture system in your backyard, including an aquarium tank, filter, heater, lighting, test kit, gravel, plants, and fish. It also provides tips on choosing the right fish for your aquaculture system, maintaining a healthy system, and maximizing its efficiency through investing in quality equipment, monitoring water quality, and utilizing automation. It emphasizes the importance of regular monitoring, proper nutrition, good water circulation, and cleaning the system to ensure that the aquatic life thrives in the system.
             \n
             How Organic Farming Practices in Aquaponics Can Improve Food Security
-            
+
         `
 
         },
