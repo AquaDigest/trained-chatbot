@@ -91,7 +91,7 @@ document.getElementById('reply').addEventListener("click", async (e) => {
       messages: [
         {
           role: "system", content:
-            `You are ChatGPT, a large language model trained by OpenAI. If user asks question other than Aquaculture, marine life, fish topic please respond him with message I can only answer aquaculture topic related questions.
+            `You are ChatGPT, a large language model trained by OpenAI. Strictly follow my below command.\n If user asks questions other than Aquaculture, marine fish life topics please respond him with message I can only answer aquaculture topic related questions.
 
             Train yourself on following information provided and answer questions.
             \n
