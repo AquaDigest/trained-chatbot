@@ -14,7 +14,7 @@ xhr.send();
 
 function init() {
   let res_elm = document.createElement("div");
-  res_elm.innerHTML = "Hello Myself Dara, How can I help you?";
+  res_elm.innerHTML = "How can I assist you today?";
   res_elm.setAttribute("class", "left");
 
   document.getElementById('msg').appendChild(res_elm);
